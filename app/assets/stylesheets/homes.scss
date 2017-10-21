@@ -26,7 +26,7 @@ header .introduction{
   height: 69px;
   width: 1300px;
   margin: 0 0 20px 0;
-  padding: 0 0px 20px 0px;
+  padding: 0 0 20px 0;
   padding-top: 100px;
 }
 header .intro{
@@ -41,4 +41,28 @@ header .intro{
   width: 1300px;
   margin: 20px 0 20px 0;
   padding-top: 25px;
+}
+.design{
+  // width: 960px;
+  height: 148px;
+  text-align: center;
+  display: block;
+}
+.design .context{
+  height: 32px;
+  // width: 960px;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  color: #F7BB06;
+}
+.design .brief{
+  height: 96px;
+  margin: 20px 0 20px 0;
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
