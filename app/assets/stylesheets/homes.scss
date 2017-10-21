@@ -14,8 +14,31 @@ header {
   background-size: cover;
 }
 header .introduction{
-  color: orange;
-  font-size: 80px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 56px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 69px;
   text-align: center;
+  text-decoration: none solid rgb(247, 187, 6);
+  text-transform: uppercase;
+  color: #F7BB06;
+  height: 69px;
+  width: 1300px;
+  margin: 0 0 20px 0;
+  padding: 0 0px 20px 0px;
   padding-top: 100px;
+}
+header .intro{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none solid rgb(133, 139, 146);
+  height: 69px;
+  width: 1300px;
+  margin: 20px 0 20px 0;
+  padding-top: 25px;
 }
