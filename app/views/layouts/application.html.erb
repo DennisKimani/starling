@@ -11,30 +11,32 @@
   </head>
 
   <body>
-    <div class="header">
-      <div class="column">
+    <div class="column">
+      <div class="col-md-3">
+        <img src="http://starling.co.ke/images/yootheme/demo/default/1.png" alt="">
+      </div>
+      <div class="col-md-7">
         <div class="col-md-3">
-          <img src="http://starling.co.ke/images/yootheme/demo/default/1.png" alt="">
+          <p>Home</p>
         </div>
-        <div class="col-md-7">
-          <div class="col-md-3">
-            <p>Home</p>
-          </div>
-          <div class="col-md-3">
-            <p>About Us</p>
-          </div>
-          <div class="col-md-3">
-            <p>Portfolio</p>
-          </div>
-          <div class="col-md-3">
-            <p>Blog</p>
-          </div>
+        <div class="col-md-3">
+          <p>About Us</p>
         </div>
-        <div class="col-md-2">
-          <p>Contact Us</p>
+        <div class="col-md-3">
+          <p>Portfolio</p>
+        </div>
+        <div class="col-md-3">
+          <p>Blog</p>
         </div>
       </div>
+      <div class="col-md-2">
+        <p>Contact Us</p>
+      </div>
     </div>
-    <%= yield %>
+    <div class="container-fluid">
+      <div class="body">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
